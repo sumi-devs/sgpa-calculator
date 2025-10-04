@@ -1,0 +1,80 @@
+* {
+    overflow: scroll;
+}
+
+body {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sgpa-container {
+    min-height: 100vh;
+    width: 30vw;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    color: #333;
+    margin-bottom: 0px;
+}
+
+.scale-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.student-info,
+.subjects,
+.result,
+.grade-scale {
+    margin-bottom: 20px;
+    border: #333 solid 1px;
+    padding: 20px;
+}
+
+.subjects subject-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-group,
+.input-group2 {
+    margin-bottom: 15px;
+    flex: auto;
+    flex-direction: column;
+}
+
+.input-group2 {
+    margin: 20px;
+}
+
+.subjectbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    border: #333 solid 1px;
+    padding: 10px;
+}
+
+@media (max-width: 900px) {
+    .sgpa-container {
+        width: 90vw;
+        margin: 20px;
+    }
+}
